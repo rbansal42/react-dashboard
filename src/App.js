@@ -3,6 +3,25 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
+import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
+import {
+	Ecommerce,
+	Orders,
+	Calendar,
+	Employees,
+	Stacked,
+	Customers,
+	Pyramid,
+	Kanban,
+	Area,
+	Bar,
+	Pie,
+	Financial,
+	ColorMapping,
+	Line,
+	ColorPicker,
+	Editor,
+} from "./pages";
 import "./App.css";
 
 const App = () => {
